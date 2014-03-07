@@ -1,3 +1,5 @@
+// David Rhoden
+
 public class Planet{
   int[] loc;
   color myColor;
@@ -6,7 +8,7 @@ public class Planet{
   String name;
   
   public Planet(){
-    println("making an planet");
+    println("making a good ole planet");
     loc = new int[2];
     assignDefaultValues();
   }
